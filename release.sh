@@ -25,5 +25,7 @@ fpm -s dir -t ${2-deb} \
     --description "$(cat DESCRIPTION)" \
     --url "https://github.com/iamale/electron-deb" \
     --after-install "scripts/after_install.sh" \
-    -p dist/ \
+    -p "dist/electron_${version}_amd64.deb" \
     -C $tmp .
+
+aptly repo add electron-deb "dist/electron_${version}_amd64.deb"
