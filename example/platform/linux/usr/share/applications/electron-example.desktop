@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Electron Example
+Comment=An example application for Electron
+Exec=/usr/bin/electron-example
+Terminal=false
+Type=Application
+Icon=electron-example
+StartupNotify=true
+Categories=Utility;
+Categories=GNOME;GTK;Utility;

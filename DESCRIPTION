@@ -1,0 +1,5 @@
+The Electron framework lets you write cross-platform desktop applications using
+JavaScript, HTML and CSS. It is based on Node.js and Chromium and is used in
+the Atom editor.
+
+This package provides runtime for the Electron-based apps.

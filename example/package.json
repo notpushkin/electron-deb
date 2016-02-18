@@ -1,0 +1,31 @@
+{
+  "name": "electron-example",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "npm run deb",
+    "build-deb": "./release.sh deb",
+    "build-rpm": "./release.sh rpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "Ale <ale@songbee.net>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/iamale/electron-deb/issues"
+  },
+  "homepage": "https://github.com/iamale/electron-deb#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
