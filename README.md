@@ -18,7 +18,7 @@ electron-example
 
 ## Building applications
 
-See [electron-example][example/].
+See [electron-example](example/).
 
 
 ## Building Electron packages
