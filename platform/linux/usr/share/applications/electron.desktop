@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Electron
+Comment=Run Electron applications
+Exec=/opt/electron/electron
+Terminal=false
+MimeType=application/x-electron;
+Type=Application
+Categories=Development;
+NoDisplay=true

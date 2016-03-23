@@ -1,4 +1,4 @@
-# Electron for Linux packages
+# Electron-Runtime
 
 Electron, while being a great way to make apps, it quite a heavy runtime. It shouldn't be bundled with each app, but rather be declared as a dependency for package managers.
 
@@ -15,6 +15,7 @@ sudo apt-get install electron electron-example
 electron-example
 ```
 
+Installing the `electron` package also sets it as the handler for the `.asar` archives, so you can just download your favourite apps in asar and run them! Woo! [Magic.][electron-673]
 
 ## Building applications
 
@@ -34,3 +35,4 @@ where VERSION is an Electron's GitHub Release and PACKAGE_TYPE is one of package
 [jq]: https://stedolan.github.io/jq/
 [fpm]: https://github.com/jordansissel/fpm
 [Aptly]: https://www.aptly.info/
+[electron-673]: https://github.com/atom/electron/issues/673
