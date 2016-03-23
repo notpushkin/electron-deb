@@ -15,7 +15,7 @@ sudo apt-get install electron electron-example
 electron-example
 ```
 
-Installing the `electron` package also sets it as the handler for the `.asar` archives, so you can just download your favourite apps in asar and run them! Woo! [Magic.][electron-673]
+Installing the `electron` package also sets it as the handler for the `.asar` archives, so you can just download your favourite apps in asar and run them! Woo! [Magic.][electron-673] **(This feature is not in the APT repository yet. Get the package at [transfer.sh](https://transfer.sh/Izvnt/electron-0.37.2-amd64.deb) instead. I'll update the repo as soon as I can.)**
 
 ## Building applications
 
